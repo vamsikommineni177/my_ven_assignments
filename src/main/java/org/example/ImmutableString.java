@@ -5,7 +5,7 @@ public class ImmutableString {
         {
             String s = "Sachin";
             s.concat(" Tendulkar");
-            System.out.println("Even though we append tendulkar using concat().... due to its immutable behaviour \n so the string is "+s);
+            System.out.println("Even though we append tendulkar using concat().... due to its immutable behaviour the string doesn't change \n so the string is "+s);
         }
     }
 
